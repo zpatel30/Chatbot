@@ -1,0 +1,48 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there","Hey there", "How are you", "Is anyone there?","Hey","Hola", "Hello"],
+         "responses": ["Hello", "Hi", "How can I help?","Hey there", "Hey"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Hope I was helpful.", "Goodbye"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [" ", "."],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help do you provide?", "How you can be helpful?", "What support is offered?"],
+         "responses": ["I can guide you through the internship portal", "Offering support for internship to students like you"],
+         "context": [""]
+        },
+        {"tag": "find_internship",
+         "patterns": ["How to check for internships?", "Open Internship module", "Give me a list of internships for summer" ],
+         "responses": ["Register first! Next login"],
+         "context": [""]
+        },
+        {"tag": "list_internship",
+         "patterns": ["List all internships for web development", "List all internships for app development", "List all internships for data science", "List all internships for full stack developer" ],
+         "responses": ["Login and Go to Internship module"],
+         "context": [""]
+        },
+        {"tag": "company_search",
+         "patterns": ["Find me a recruiting company", "Find Company", "List of companies nearby"],
+         "responses": ["Please login and go to Internship module.", "Go to Internship module and filter for your choices!"],
+         "context": [""]
+        },
+        {"tag": "vacancy_search",
+         "patterns": ["Lookup for vacancies in internship", "Searching for vacancies in full stack development", "Searching for vacancies in web development", "Searching for vacancies in data science ", "Looking up for vacancies in app development" ],
+         "responses": ["Please apply filters given in Internship module.", "Select from the given filters to find your choices!"],
+         "context": [""]
+        }
+   ]
+}
